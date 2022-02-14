@@ -1,1 +1,33 @@
+Big O: describes the rate of increase in time/space
+
+Sharing a file with a friend
+
+max size of a file can be 5TBs
+
+now there are two approaches via,
+1. Electronic medium
+2. Personally hand it over 
+
+approach #2, takes constant time 5 hours(say),
+			here whatever the file size is, it takes only 5hrs
+			
+where as approach #1 depends on the file size,
+		 here lets assume time is linearly dependant on file size 
+		 
+Time complexity
+approach #1:  O(n), n-> file size 
+approach #2:  O(1)
+
+
+Does O(1) means that it is always better than O(n)?
+NOOO...
+For some inputs O(n) is faster than O(1), like in the above example
+if file size is in MBs, than it would take a min or two to share, which 
+is much much better than 5 hours of journey.
+
+This cleary states that, Big O notation tells the rate of increase in time/space 
+for an algorithm as the size of input increases.
+
+
+	
 
